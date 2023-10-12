@@ -1,0 +1,14 @@
+- Proxies
+  - Pillow
+    - https://replit.com/@bypassrr/Bypassrr-Features
+  - Interstellar
+    - interstellar.bypassrr.repl.co
+  - Haven
+    - interstellar.bypassrr.repl.co
+- Games
+  - EaglercraftX
+    - interstellar.bypassrr.repl.co
+  - KittenMod
+    - kittenmod-best-performance-mod.bypassrr.repl.co
+- Features
+  - Check changelog ig
