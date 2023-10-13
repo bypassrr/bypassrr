@@ -1,0 +1,1 @@
+git ls-files --exclude-standard -- ':!:**/*.[pjs][npv]g' ':!:**/*.ai' ':!:.idea' ':!:**/*.eslintrc' ':!:package-lock.json' ':!:**/*.[pjs][npv]g' | xargs wc -l | grep -o "[0-9]* total" | awk '{SUM += $1} END {print SUM}'
