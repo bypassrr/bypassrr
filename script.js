@@ -479,8 +479,8 @@ document.getElementById("proxies").addEventListener("click", function (event) {
   current_mode = "proxies";
   document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "PLW";
   document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Pillow";
-  document.getElementById("features").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "INTER";
-  document.getElementById("features").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Interstellar";
+  document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "INTER";
+  document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Interstellar";
 })
 
 document.getElementById("cloak").addEventListener("click", function (event) {
