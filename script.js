@@ -487,4 +487,4 @@ document.getElementById("cloak").addEventListener("click", function (event) {
   document.getElementById("title").innerText = "Home";
   document.getElementById("icon").href = "https://www.gstatic.com/classroom/logo_square_rounded.svg";
   document.getElementById("icon").type = ""
-})
+}) // this comment is only here so i can commit
