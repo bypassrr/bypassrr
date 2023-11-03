@@ -177,7 +177,7 @@ const Pin = () => {
         return (React.createElement("span", { id: "app-pin-cancel-text", onClick: handleOnCancel }, "Cancel"));
     };
     const getErrorText = () => {
-        if (userStatus === UserStatus.LogInError) {
+        if (userStatus === UserStatus.LogInEhttps://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shaderrror) {
             return (React.createElement("span", { id: "app-pin-error-text" }, "Invalid"));
         }
     };
@@ -475,12 +475,30 @@ const App = () => {
 };
 ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
 
+function changeElement (id, sname, lname) {
+  document.getElementById(id).getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = sname;
+  document.getElementById(id).getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = lname;
+}
+
+// proxies
+// games
+// features
+// changelog
+// cloak
+// about
+
 document.getElementById("proxies").addEventListener("click", function (event) {
   current_mode = "proxies";
-  document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "PLW";
-  document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Pillow";
-  document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "INTER";
-  document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Interstellar";
+  changeElement("proxies", "PLW", "Pillow");
+  changeElement("games", "INTR", "Interstellar");
+  changeElement("features", "HVN", "Haven");
+  changeElement("changelog", "CMNG", "Coming soon");
+  changeElement("cloak", "CMNG", "Coming soon");
+  changeElement("about", "BACK", "Back to home");
+  // document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "PLW";
+  // document.getElementById("proxies").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Pillow";
+  // document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[0].innerText = "INTER";
+  // document.getElementById("games").getElementsByTagName("div")[1].getElementsByTagName("div")[0].getElementsByTagName("span")[1].innerText = "Interstellar";
 })
 
 document.getElementById("cloak").addEventListener("click", function (event) {
